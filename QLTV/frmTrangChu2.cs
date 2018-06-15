@@ -16,7 +16,9 @@ namespace QLTV
         {
             InitializeComponent();
         }
-
+        public string tendangnhap;
+        public string matkhau;
+        public string phanquyen;
         private void btnSinhVien_Click(object sender, EventArgs e)
         {
             frmSinhVien f = new frmSinhVien();
@@ -46,6 +48,25 @@ namespace QLTV
             frmMuonTra frmmt = new frmMuonTra();
             this.Hide();
             frmmt.ShowDialog();
+            this.Show();
+        }
+
+        private void btnHelp_Click(object sender, EventArgs e)
+        {
+            frmHelp frmh = new frmHelp();
+            this.Hide();
+            frmh.ShowDialog();
+            this.Show();
+        }
+
+        private void btnTK_Click(object sender, EventArgs e)
+        {
+            frmTaiKhoan2 ftk2 = new frmTaiKhoan2();
+            ftk2.tendangnhap2 = tendangnhap;
+            ftk2.matkhau2 = matkhau;
+            ftk2.phanquyen2 = phanquyen;
+            this.Hide();
+            ftk2.ShowDialog();
             this.Show();
         }
     }

@@ -29,11 +29,13 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnMuonTra = new System.Windows.Forms.Button();
             this.btnSinhVien = new System.Windows.Forms.Button();
             this.btnSach = new System.Windows.Forms.Button();
             this.btnVitri = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btnHelp = new System.Windows.Forms.Button();
+            this.btnTK = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,6 +43,8 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.panel1.BackgroundImage = global::QLTV.Properties.Resources.sach;
+            this.panel1.Controls.Add(this.btnTK);
+            this.panel1.Controls.Add(this.btnHelp);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnMuonTra);
             this.panel1.Controls.Add(this.btnSinhVien);
@@ -53,12 +57,22 @@
             this.panel1.Size = new System.Drawing.Size(1015, 613);
             this.panel1.TabIndex = 1;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.2F);
+            this.label1.Location = new System.Drawing.Point(415, 36);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(185, 51);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Mục Lục";
+            // 
             // btnMuonTra
             // 
             this.btnMuonTra.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnMuonTra.Font = new System.Drawing.Font("Courier New", 10.8F, System.Drawing.FontStyle.Bold);
             this.btnMuonTra.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.btnMuonTra.Location = new System.Drawing.Point(572, 362);
+            this.btnMuonTra.Location = new System.Drawing.Point(363, 362);
             this.btnMuonTra.Margin = new System.Windows.Forms.Padding(4);
             this.btnMuonTra.Name = "btnMuonTra";
             this.btnMuonTra.Size = new System.Drawing.Size(288, 174);
@@ -102,7 +116,7 @@
             this.btnVitri.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnVitri.Font = new System.Drawing.Font("Courier New", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVitri.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btnVitri.Location = new System.Drawing.Point(155, 362);
+            this.btnVitri.Location = new System.Drawing.Point(46, 362);
             this.btnVitri.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnVitri.Name = "btnVitri";
             this.btnVitri.Size = new System.Drawing.Size(285, 174);
@@ -112,15 +126,34 @@
             this.btnVitri.UseVisualStyleBackColor = false;
             this.btnVitri.Click += new System.EventHandler(this.btnVitri_Click);
             // 
-            // label1
+            // btnHelp
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.2F);
-            this.label1.Location = new System.Drawing.Point(415, 36);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(185, 51);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "Mục Lục";
+            this.btnHelp.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnHelp.Font = new System.Drawing.Font("Courier New", 10.8F, System.Drawing.FontStyle.Bold);
+            this.btnHelp.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnHelp.Location = new System.Drawing.Point(842, 13);
+            this.btnHelp.Margin = new System.Windows.Forms.Padding(4);
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.Size = new System.Drawing.Size(160, 59);
+            this.btnHelp.TabIndex = 12;
+            this.btnHelp.Text = "Trợ Giúp";
+            this.btnHelp.UseVisualStyleBackColor = false;
+            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
+            // 
+            // btnTK
+            // 
+            this.btnTK.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnTK.Font = new System.Drawing.Font("Courier New", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTK.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnTK.Location = new System.Drawing.Point(684, 362);
+            this.btnTK.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnTK.Name = "btnTK";
+            this.btnTK.Size = new System.Drawing.Size(288, 174);
+            this.btnTK.TabIndex = 13;
+            this.btnTK.Text = "Quản lý Tài Khoản";
+            this.btnTK.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnTK.UseVisualStyleBackColor = false;
+            this.btnTK.Click += new System.EventHandler(this.btnTK_Click);
             // 
             // frmTrangChu2
             // 
@@ -145,5 +178,7 @@
         private System.Windows.Forms.Button btnSach;
         private System.Windows.Forms.Button btnVitri;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnHelp;
+        private System.Windows.Forms.Button btnTK;
     }
 }

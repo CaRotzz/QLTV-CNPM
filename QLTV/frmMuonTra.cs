@@ -162,6 +162,7 @@ namespace QLTV
  				if (result == DialogResult.Yes)
 				{
  					ThemPM();
+                    MessageBox.Show("Mượn sách thành công.", "Thông báo");
 				}
                 else
                 {
@@ -288,6 +289,8 @@ namespace QLTV
 			{
 				TraSach();
 				XoaPM();
+                lvMuonSach.Items.Clear();
+                MessageBox.Show("Trả sách thành công.", "Thông báo");
 			}
             else
             {

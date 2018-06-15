@@ -17,3 +17,7 @@ C:\Users\Hung Ngo\Desktop\TTN4-QLTV\QLTV_TTN\QLTV\obj\Debug\QLTV.exe
 C:\Users\Hung Ngo\Desktop\TTN4-QLTV\QLTV_TTN\QLTV\obj\Debug\QLTV.pdb
 C:\Users\Hung Ngo\Desktop\TTN4-QLTV\QLTV_TTN\QLTV\obj\Debug\QLTV.frmTrangChu2.resources
 C:\Users\Hung Ngo\Desktop\TTN4-QLTV\QLTV_TTN\QLTV\obj\Debug\QLTV.frmHelp.resources
+C:\Users\Hung Ngo\Desktop\TTN4-QLTV\QLTV_TTN\QLTV\obj\Debug\QLTV.frmTaiKhoan.resources
+C:\Users\Hung Ngo\Desktop\TTN4-QLTV\QLTV_TTN\QLTV\obj\Debug\QLTV.frmDoiMK.resources
+C:\Users\Hung Ngo\Desktop\TTN4-QLTV\QLTV_TTN\QLTV\obj\Debug\QLTV.frmTaiKhoan2.resources
+C:\Users\Hung Ngo\Desktop\TTN4-QLTV\QLTV_TTN\QLTV\obj\Debug\QLTV.frmTaoTK.resources

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnTK = new System.Windows.Forms.Button();
             this.btnHelp = new System.Windows.Forms.Button();
             this.btnMuonTra = new System.Windows.Forms.Button();
             this.btnSinhVien = new System.Windows.Forms.Button();
@@ -43,6 +44,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.panel1.BackgroundImage = global::QLTV.Properties.Resources.sach;
+            this.panel1.Controls.Add(this.btnTK);
             this.panel1.Controls.Add(this.btnHelp);
             this.panel1.Controls.Add(this.btnMuonTra);
             this.panel1.Controls.Add(this.btnSinhVien);
@@ -57,17 +59,32 @@
             this.panel1.Size = new System.Drawing.Size(1015, 613);
             this.panel1.TabIndex = 0;
             // 
+            // btnTK
+            // 
+            this.btnTK.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnTK.Font = new System.Drawing.Font("Courier New", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTK.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnTK.Location = new System.Drawing.Point(689, 362);
+            this.btnTK.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnTK.Name = "btnTK";
+            this.btnTK.Size = new System.Drawing.Size(288, 174);
+            this.btnTK.TabIndex = 12;
+            this.btnTK.Text = "Quản lý Tài Khoản";
+            this.btnTK.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnTK.UseVisualStyleBackColor = false;
+            this.btnTK.Click += new System.EventHandler(this.btnTK_Click);
+            // 
             // btnHelp
             // 
-            this.btnHelp.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnHelp.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btnHelp.Font = new System.Drawing.Font("Courier New", 10.8F, System.Drawing.FontStyle.Bold);
             this.btnHelp.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.btnHelp.Location = new System.Drawing.Point(689, 362);
+            this.btnHelp.Location = new System.Drawing.Point(842, 13);
             this.btnHelp.Margin = new System.Windows.Forms.Padding(4);
             this.btnHelp.Name = "btnHelp";
-            this.btnHelp.Size = new System.Drawing.Size(288, 174);
+            this.btnHelp.Size = new System.Drawing.Size(160, 59);
             this.btnHelp.TabIndex = 11;
-            this.btnHelp.Text = "Trợ Giúp và Công Cụ";
+            this.btnHelp.Text = "Trợ Giúp";
             this.btnHelp.UseVisualStyleBackColor = false;
             this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
             // 
@@ -181,5 +198,6 @@
         private System.Windows.Forms.Button btnSinhVien;
         private System.Windows.Forms.Button btnMuonTra;
         private System.Windows.Forms.Button btnHelp;
+        private System.Windows.Forms.Button btnTK;
     }
 }

@@ -51,5 +51,15 @@ namespace QLTV
         {
             MessageBox.Show("Để trả sách, vào mục Quản lý Mượn Trả, tab Trả Sách, điền đầy đủ thông tin rồi ấn nút Trả Sách.", "Trả Sách");
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Để đổi mật khẩu, vào mục Quản lý Tài khoản, chọn Đổi Mật khẩu, điền đầy đủ thông tin rồi ấn nút Đổi Mật khẩu", "Đổi Mật khẩu");
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Tạo Tài khoản chỉ dành cho Quản lý, để Tạo Tài khoản, vào mục Quản lý Tài khoản, chọn Tạo Tài khoản, điền đầy đủ thông tin rồi ấn nút Đăng ký", "Tạo Tài khoản");
+        }
     }
 }

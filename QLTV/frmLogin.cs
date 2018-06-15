@@ -55,6 +55,9 @@ namespace QLTV
                 if ((int)reader["PhanQuyen"] == 1)// Bảng của admin
                 {
                     frmTrangChu f = new frmTrangChu();
+                    f.tendangnhap = txbTK.Text;
+                    f.matkhau = txbMK.Text;
+                    f.phanquyen = "Quản lý";
                     this.Hide();
                     f.ShowDialog();
                     this.Show();
@@ -62,6 +65,9 @@ namespace QLTV
                 else if ((int)reader["PhanQuyen"] == 2)//Bảng của nhân viên
                 {
                     frmTrangChu2 g = new frmTrangChu2();
+                    g.tendangnhap = txbTK.Text;
+                    g.matkhau = txbMK.Text;
+                    g.phanquyen = "Nhân viên";
                     this.Hide();
                     g.ShowDialog();
                     this.Show();
